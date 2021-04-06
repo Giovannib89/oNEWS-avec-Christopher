@@ -1,0 +1,203 @@
+* {
+    box-sizing: border-box
+}
+
+
+body {
+    font-family: sans-serif;
+    
+    display: flex;
+
+}
+
+
+/* page gauche */
+#page__gauche{
+    
+    display: flex;
+    flex-direction: column;
+    background-image: url("../images/nicole.jpg");
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+}
+
+
+.gauche__logo {
+    width: 2.2rem;
+}
+
+
+
+.gauche {
+    display: flex;
+}
+.titre__gauche {
+    margin-top: 20px;
+    color: white;
+    margin-left: 1em;
+    font-size: 1.3em;
+    font-weight: bold;
+    line-height: 25px;
+   
+}
+
+.gauche__bordure {
+    margin: 20px;
+}
+
+.news{
+    width: 100%;
+    margin: 300px 0;
+    background-color: rgba(138, 135, 135, 0.3);
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.news__titre {
+    color: white;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: right;
+}
+
+.titre__suite {
+    font-weight: normal;
+    font-style: italic;
+    font-size: 0.7em;
+    text-align:right;
+}
+
+.news__paragraph {
+    color: white;
+    text-align: right;
+    line-height: 1.5em;
+    margin-top: 15px;
+}
+
+nav {
+text-align: right;
+}
+
+.lien__footer {
+text-decoration: none;
+color: white;
+font-weight: bold;
+margin-left: 40px;
+text-shadow: 0px 0px 10px black;
+}
+
+/* page droite */
+
+.droite {
+    background-color: #f9f9f9;
+    width: 100%;
+    
+
+}
+.droite__titre {
+    font-size: 2em;
+    font-weight: bold;
+    padding: 40px ;
+}
+
+.boite__article {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article{
+    border: 1px solid #eaeaea;
+    width: 50%;
+    padding: 40px;
+    height: 40%;
+ 
+    
+    
+    
+}
+
+.page__droite {
+    width : 50%;
+    flex-wrap: wrap;
+    height: 100vh;
+    overflow-y: scroll;
+    box-sizing: border-box;
+    display: flex;
+    
+
+}
+
+#titre__article {
+    text-transform: uppercase;
+    margin-right: 80%;
+    color: white;
+    padding: 8px 5px 5px 5px;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+
+.titre__team {
+    background-color: #DC5E53;
+}
+
+.titre__news {
+    background-color: #98DC62;
+}
+
+.titre__work {
+    background-color: #0766F0;
+}
+
+h3 {
+    font-weight: bold;
+    margin: 20px 0;
+    font-size: 1.7em;
+    line-height: 1.5em;
+}
+
+.logo__article {
+    width: 2em;
+    height: 2em;
+    margin-top: 15px;
+}
+
+span { 
+    display: flex;
+}
+
+.important__personnage {
+    
+    margin: 1.5em 1em;
+    font-weight: bold;
+}
+
+em {
+    font-weight: lighter;
+    color:  gray;
+}
+
+ 
+.article__paragraph {
+    line-height: 1.5em;
+    font-size: 1.3em;
+    margin-bottom: 1.3em;
+}
+
+.article__lien {
+    color: #007bff;
+    font-size: 1.3em;
+
+}
+
+.article__lien:hover {
+    color: #0056b3;
+}
